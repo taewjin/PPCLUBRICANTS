@@ -47,3 +47,53 @@
 		.menu li:first-child{
 			border-left: 1px solid #a9a9a9;
 		}
+	.midleft{
+		width: 387px;
+		height: 265px;
+		background: white;
+		margin-top: 15px;
+		margin-left: 35px;
+		display: inline-block;
+	}
+		.midleft img{
+			margin: 5px;
+		}
+	.midhead{
+		width: 500px;
+		height: 30px;
+		margin: 15px 0 0 15px;
+		background: linear-gradient(khaki, gold, khaki);
+		display: inline-block;
+		vertical-align: top;
+	}
+		.midhead h4{
+						color: black;
+			font-family: verdana;
+			font-size: 12px;
+			font-weight: 600;
+			margin:0;
+			padding: 7px 0 7px 10px;
+		}
+	.midright{
+		width: 500px;
+		height: 236px;
+		background: linear-gradient(to right, gray, #696969);
+		vertical-align: top;
+		/*margin: 15px 0 0 15px;*/
+		display: inline-block;
+		/*margin-left: 10px;*/
+		color: white;
+	}
+		.midright h5{
+			padding-left: 15px;
+			font-family: verdana;
+			margin-bottom: 15px;
+
+		}
+		.midright p{
+			margin-top: 0;
+			padding-left: 15px;
+			font-size: 12px;
+			font-family: sans-serif;
+		}
+
