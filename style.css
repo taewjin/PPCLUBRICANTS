@@ -3,8 +3,8 @@
 }
 .container{
 	width: 970px;
-	height: 1000px;
-	background-color: black;
+	height: auto;
+	background: linear-gradient(to right, black, black, #696969, black, black);
 	margin:0 auto;
 }
 	.header{
@@ -58,7 +58,7 @@
 		.midleft img{
 			margin: 5px;
 		}
-	.midhead{
+	.subhead{
 		width: 500px;
 		height: 30px;
 		margin: 15px 0 0 15px;
@@ -66,7 +66,7 @@
 		display: inline-block;
 		vertical-align: top;
 	}
-		.midhead h4{
+		.subhead h4{
 						color: black;
 			font-family: verdana;
 			font-size: 12px;
@@ -74,26 +74,80 @@
 			margin:0;
 			padding: 7px 0 7px 10px;
 		}
-	.midright{
-		width: 500px;
-		height: 236px;
-		background: linear-gradient(to right, gray, #696969);
-		vertical-align: top;
-		/*margin: 15px 0 0 15px;*/
-		display: inline-block;
-		/*margin-left: 10px;*/
-		color: white;
+		.midright{
+			width: 500px;
+			height: 236px;
+			background: linear-gradient(to right, gray, #696969);
+			vertical-align: top;
+			/*margin: 15px 0 0 15px;*/
+			display: inline-block;
+			/*margin-left: 10px;*/
+			color: white;
+		}
+			.midright h5{
+				padding-left: 15px;
+				font-family: verdana;
+				margin-bottom: 15px;
+
+			}
+			.midright p{
+				margin-top: 0;
+				padding-left: 15px;
+				font-size: 12px;
+				font-family: sans-serif;
+			}
+	.midlogo img{
+		margin: 5px 0 0 45px;
+		border-radius: 0 3px 3px 0;
 	}
-		.midright h5{
-			padding-left: 15px;
+	.midlogo h6{
+		margin: 0;
+		display: inline-block;
+		color: #bdb76b;
+		font-family: arial;
+		font-size: 11px;
+		vertical-align: top;
+		padding: 7px 0 0 10px;
+	}
+	.bothead{
+		width: 197.5px;
+		height: 250px;
+		margin: 15px 0 30px 35px;
+		background: white;
+		display: inline-block;
+		vertical-align: top;
+		overflow:hidden;
+	}
+		.bothead h4{
+			color: black;
 			font-family: verdana;
-			margin-bottom: 15px;
-
+			font-size: 10px;
+			font-weight: 600;
+			margin:0;	
+			background: linear-gradient(khaki, gold, khaki);
+			padding: 7px 0 7px 15px;
 		}
-		.midright p{
-			margin-top: 0;
-			padding-left: 15px;
-			font-size: 12px;
+		.bothead p{
+			font-size: 11px;
 			font-family: sans-serif;
+			padding: 0 10px 0 15px;
 		}
+		.bothead a{
+			margin-left: 100px;
+			padding: 3px;
+			background: gold;
+			color:inherit;
+			text-decoration: none;
+			font-size: 12px;
+			border: 2px solid black;
+			border-radius: 10px 30px 30px 10px ;
+		
 
+		}
+	/*	.botbox {
+			width: 210.5px;
+			height: 200px;
+			display: inline-block;
+			background-color: white;		
+			vertical-align: top;
+		}*/
