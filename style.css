@@ -1,5 +1,5 @@
 *{
-	outline: 1px dotted red;
+	/*outline: 1px dotted red;*/
 }
 .container{
 	width: 970px;
@@ -9,6 +9,41 @@
 }
 	.header{
 		width: 100%;
-		height: 200px;
-		background-color: rgb(228,228,228);
+		height: 68px;
+		background: linear-gradient(#dcdcdc,white,white);
 	}
+		.header img{
+			margin-left: 30px;
+		}
+		.header h3{
+			display: inline-block;
+			font-family: verdana;
+			font-weight: 600;
+			vertical-align: top;
+			margin: 0;
+			padding: 30px 20px 0 200px;
+		}
+	.menu{
+		width: 100%;
+		height: 60px;
+		background: linear-gradient(white,silver,white,white,white);
+		border-top: 1px solid gray;
+	}
+		.menu ul{
+			list-style-type: none;
+			margin:0;
+			margin-top: 2px;
+			vertical-align: top;
+		}
+		.menu li{
+			font-family: verdana;
+			font-weight: 600;
+			font-size: 11px;
+			padding: 10px;
+			color: #696969;
+			display: inline-block;			/*margin: 0 px 0 0;*/
+			border-right: 1px solid #a9a9a9;
+		}
+		.menu li:first-child{
+			border-left: 1px solid #a9a9a9;
+		}
